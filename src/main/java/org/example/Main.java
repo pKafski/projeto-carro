@@ -10,6 +10,10 @@ public class Main {
         carro.setCor("azul");
         carro.setMarca("fiat");
         carro.setModelo("uno");
+        System.out.println("Cor " +carro.getCor());
+        System.out.println("Marca "+ carro.getMarca());
+        System.out.println("Modelo " + carro.getModelo());
+        System.out.println("Ano " + carro.getAno());
 
     }
 }
